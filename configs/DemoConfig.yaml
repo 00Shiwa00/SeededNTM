@@ -1,0 +1,21 @@
+config-name: configs\DemoConfig.yaml
+config-path: configs
+dataset:
+  data-file: DemoDataSet.csv
+  folder-path: Data/DemoData
+  result-file: result
+  sw-file: seedWords.txt
+model:
+  bs:       2
+  drop_out: 0.2
+  epochs:   20
+  lambda_0: 0.1
+  lambda_1: 2.0
+  lambda_2: 10.0
+  lambda_3: 10.0
+  tau:      4.0
+  kappa:    3.0
+  lr:       0.001
+  nt:       2
+  path: model\DemoModel
+  theta_act: softplus

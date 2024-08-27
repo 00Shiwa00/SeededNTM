@@ -1,0 +1,5 @@
+text,CategoryId,text_cleaned
+this is a demo text,0,demo text
+The demo text is about Topics,0,demo text topic
+The other examples are about scifi,1,other example scifi
+Scifi often contains things like stars and guns ,1,scifi contain star gun
